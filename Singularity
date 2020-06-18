@@ -3,7 +3,7 @@ From: ubuntu:20.04
 
 %post
 	apt-get update && \
-    sudo apt-get install \
+    apt-get install \
     python
 
 	wget -O oma.tgz https://omabrowser.org/standalone/OMA.2.4.1.tgz
